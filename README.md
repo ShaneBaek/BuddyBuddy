@@ -1,4 +1,4 @@
-TellmeSome
+BuddyBuddy
 ==========
 
-A place where illustrators show off
+An online space for talented people
