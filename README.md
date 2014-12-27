@@ -1,4 +1,4 @@
 BuddyBuddy
 ==========
 
-An online space for talents
+An online space for the talent
