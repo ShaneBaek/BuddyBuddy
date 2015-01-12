@@ -2,72 +2,39 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>BuddyBuddy</title>
-
-  <link rel="stylesheet" href="responsive.css">
-  <link rel="stylesheet" href="layout.css">
-  <link rel="stylesheet" href="carousel-style.css">
-
-  <!-- Bootstrap -->
-  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/slider-gallery-style.css">
 </head>
 
 <body>
-<h1> 
-  <div class="border">
-  <p class="buddy1">&nbspBuddyBuddy</p>
-  </div>
-</h1>
-
-<!-- Bootstrapp Carousel start-->
-<div id="main-page" class="main-carousel" data-ride="carousel">
-  <!-- Indicators -->
-  <ol class="carousel-indicators">
-    <li data-target="#main-page" data-slide-to="0" class="active"></li>
-    <li data-target="#main-page" data-slide-to="1"></li>
-    <li data-target="#main-page" data-slide-to="2"></li>
-  </ol>
-
-  <!-- Wrapper for slides -->
-  <div class="carousel-inner" role="listbox">
-    <div class="item active">
-      <img src="images/singer4.jpg" alt="sing!">
-      <div class="carousel-caption">
-        <h3>Sing off your ass!</h3>
-        <p>Show off your skill</p>
-      </div>
+  <h1> 
+    <div class="border">
+    <p class="buddy1">&nbspBuddyBuddy</p>  
     </div>
+  </h1>
 
-    <div class="item">
-      <img src="images/dance4.jpg" alt="dance!">
-      <div class="carousel-caption">
-        <h3>Dance off your ass!</h3>
-        <p>Show off your skill</p>
-      </div>
-    </div>
-
-    <div class="item">
+<div id="frame">
+  <div id="slide_tray">
+    
+    <div class="slide">
       <img src="images/actor1.jpg" alt="act!">
-      <div class="carousel-caption">
-        <h3>Act like you are an ass!</h3>
-        <p>Show off your skill</p>
-      </div>
     </div>
-  </div>
+    
+   <div class="slide">
+     <img src="images/dance4.jpg" alt="dance!">
+   </div>
 
-  <!-- Controls -->
-  <a class="left carousel-control" href="#main-page" role="button" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="right carousel-control" href="#main-page" role="button" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
+    <div class="slide">
+      <iframe width="900" height="500" src="images/singer4.jpg" frameborder="0" allowfullscreen></iframe>
+    </div>
+  
+  </div>
+    <a href="#" id="prev"><i class="fa fa-angle-left fa-5x"></i></a>
+    <a href="#" id="next"><i class="fa fa-angle-right fa-5x"></i></a>
 </div>
-<!-- Carousel end -->
 
 <!-- social media -->
    <div id="social" class="clearfix">
@@ -81,15 +48,14 @@
    </div>
 <!-- social media end-->
 
+<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+<script src="js/slider-gallery.js"></script>
 </body>
     
     <div class="stripe"></div>
-     <footer>
-      &copy; BuddyBuddy. All Rights Reserved.
-     </footer>
+       <footer>
+        &copy; BuddyBuddy. All Rights Reserved.
+       </footer>
     </div>
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
 
 </html>
