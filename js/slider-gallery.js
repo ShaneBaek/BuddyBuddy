@@ -1,7 +1,11 @@
 $(function() {
 	
 	var slidewidth = $('.slide').width(),
+<<<<<<< HEAD
 	    slideCount = $(',slide').size(),
+=======
+	    slideCount = $('.slide').size(),
+>>>>>>> slider-gallery
 	    pos = 0;
 
 	// set the width of the slide tray
