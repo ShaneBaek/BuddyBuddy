@@ -3,21 +3,10 @@
     padding: 0;
   }
 
-  .buddy1 {
-  color: rgb(246,225,85);
-  text-decoration: none;
-  cursor: auto;
-  font-size: 2em;
-  font-weight: bold;
-  font-family: 'Baskerville', serif;
-  padding-bottom: 10px;
-  margin: 0;
+  .stripe1 {
+  border-top: 15px solid rgb(171,47,144);
+  border-bottom: 15px solid rgb(171,47,144);
   background: rgb(24,44,62);
-  }
-
-  .border {
-    border-top: 15px solid rgb(171,47,144);
-    border-bottom: 15px solid rgb(171,47,144);
   }
   
   footer {
@@ -28,6 +17,7 @@
     padding: 20px;
     font-weight: lighter;
     border-bottom: 20px solid rgb(200,56,37);
+    margin: 0;
   }
 
   .stripe {
